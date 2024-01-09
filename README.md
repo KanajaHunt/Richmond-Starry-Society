@@ -12,6 +12,15 @@ A Simple APOD App built using NASA's API integration that displays a picture/vid
 
 ---
 
+# Things to add
+
+- In my JS file you will notice the link to the api is missing the API_SECRET:
+  - Where it states [ENTER_API_SECRET], please input your personalized secret NASA sent you! Or, more conveniently, copy and past the url with the included   
+  secret!
+
+  - API_SECRET = `your nasa api secret`
+---
+
 # Optimizations 
 
 - As I become more comfortable with various software, looking back I would probably use React in tandem with JavaScript by using the `.fetch()` method and integrating the `.setState()` method in React to build dynamic web apps that communicate with APIs and display real-time data to users.
